@@ -18,4 +18,5 @@ RUN dotnet publish "withdraw.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "withdraw.dll"]
+#ENTRYPOINT ["dotnet", "withdraw.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet /app/publish/hwithdraw.dll
