@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  withdraw:
+    image: ${DOCKER_REGISTRY-}withdraw
+    build:
+      context: .
+      dockerfile: withdraw/Dockerfile
