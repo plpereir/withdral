@@ -19,4 +19,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 #ENTRYPOINT ["dotnet", "withdraw.dll"]
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet /app/publish/hwithdraw.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet /app/publish/withdraw.dll
