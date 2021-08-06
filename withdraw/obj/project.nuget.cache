@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ZlqkkQlDzIuk65Xj5u6tAuENRYCGC2W1VIIzO25l8jPgnsXvs+aalpKUkur8VGqe6sfn+sL4NOdW2BwP5uwsQ==",
+  "success": true,
+  "projectFilePath": "/Users/Pedro/Projects/withdraw/withdraw/withdraw.csproj",
+  "expectedPackageFiles": [
+    "/Users/Pedro/.nuget/packages/dapper/2.0.90/dapper.2.0.90.nupkg.sha512",
+    "/Users/Pedro/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/Pedro/.nuget/packages/npgsql/5.0.7/npgsql.5.0.7.nupkg.sha512",
+    "/Users/Pedro/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.5/swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
+    "/Users/Pedro/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.5/swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
+    "/Users/Pedro/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.5/swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512",
+    "/Users/Pedro/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
